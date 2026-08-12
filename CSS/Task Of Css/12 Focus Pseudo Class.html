@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Pseudo Class</title>
+    <!--Internal Css-->
+    <style>
+        label{
+            font-size: 25px;
+        }
+        input{
+            height: 10px;
+            width: 20px;
+            margin: 0 auto;
+            background-color: aquamarine;
+            border: 5px solid blue;
+            font-size: 10px;
+        }
+        /*Input Focus*/
+        input:focus{
+            background-color:lightcoral;
+            color: antiquewhite;
+            border: 5px solid red;  
+        }
+    </style>
+</head>
+<body>
+    <h1>Focus Pseudo Class</h1>
+    <hr>
+    <label>Name</label>
+    <input type="text">
+    <br>
+    <label>Password</label>
+    <input type="password">
+</body>
+</html>

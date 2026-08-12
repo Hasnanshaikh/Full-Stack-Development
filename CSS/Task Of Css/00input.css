@@ -1,0 +1,17 @@
+/* External CSS file for styling the HTML document. 
+This file contains various CSS rules and 
+properties that define the appearance of elements on the webpage. 
+It includes styles for layout, typography, colors, 
+and other visual aspects to enhance the user experience. */
+
+
+.External_CSS{
+    background-color: gold;
+    color: black;
+    font-size: 30px;
+}
+
+p{
+    color: green;
+    font-size: 15px;
+}

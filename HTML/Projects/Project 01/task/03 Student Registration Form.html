@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form>
+        <table align="center" width="700" cellpadding="10" bgcolor="#f1f1f1" border="2">
+            <tr>
+                <td colspan="2" align="center">
+                    <h1>Student Registration Form</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>Roll NO:</td>
+                <td><input type ="text" name="Roll_no"size="50px" placeholder="Roll NO:"></td>
+            </tr>
+            <tr>
+                <td>Student Name:</td>
+                <td>
+                    <input type="text"Size="21px" Placeholder="First Name">
+                    --
+                    <input type="text"Size="21px" Placeholder="Last Name">
+                </td>
+            </tr>
+              <tr>
+                <td>Father Name:</td>
+                <td><input type ="text" name="father_name"size="50px" placeholder="Father Name"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth: </td>
+                <td>
+                    <input type="text"Size="7px" Placeholder="Day">
+                    -
+                    <input type="text"Size="7px" Placeholder="Month">
+                    -
+                    <input type="text"Size="7px" Placeholder="Year">
+                    <em>(DD-MM-YYYY)</em>
+                </td>
+            </tr>
+              <tr>
+                <td> Mobile no:</td>
+                <td>
+                    <input type="text"Size="03px" Placeholder="+91">
+                    -
+                    <input type="text"Size="40px" >
+                </td>
+            </tr>
+            <tr>
+                <td>Email Id:</td>
+                <td><input type ="text" name="Email_id"size="50px" placeholder="Enter Your Email Id:"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type ="text" name="Password"size="50px" placeholder="Enter Your Password:"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" Name="Gender" Value="Male">Male
+                <input type="radio" Name="Gender" Value="Female">Female</td>
+            </tr>
+            <tr>
+                <td>Department:</td>
+                <td>
+                    <input type="checkbox"name="department" value="Bca">
+                    <label for="Bca">BCA</label>
+                    <input type="checkbox"name="department" value="Bsc">
+                    <label for="Bsc">BSC</label>
+                    <input type="checkbox"name="department" value="Bcom">
+                    <label for="Bcom">BCOM</label>
+                    <input type="checkbox" name="department" value="Bba">
+                    <label for="Bba">BBA</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Stream:</td>
+                <td>
+                    SelectStream:
+                    <select name="Stream">
+                        <option value="Science">Science</option>
+                        <option value="Commerce">Commerce</option>
+                        <option value="Arts">Arts</option>
+                </td>
+            </tr>
+            <tr>
+                <td>Student Photo:</td>
+                <td><input Type="file" name="student_photo"></td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td><input type="text" size="50px" placeholder="Enter Your City Name:"></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea Name="Address" rows="7" Cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                </td>
+    
+                <td>
+                    <input type="reset" Value="Reset">
+                </td>
+            </tr>
+
+
+        </table>
+         
+    </form>
+
+          
+</body>
+</html>

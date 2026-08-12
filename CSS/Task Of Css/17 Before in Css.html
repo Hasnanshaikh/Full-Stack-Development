@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After in Css</title>
+    <!--Internal Css-->
+    <style>
+        h1{
+            background-color: gold;
+            font-size: 40px;
+            color: tomato;
+        }
+        h2{
+            font-size: 35px;
+        }
+        /*Before Selector Use in Css*/
+        h2::before{
+            content:'\2605';
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h1>:: Before Selector In Css</h1>
+    <hr>
+    <h2>:: Before Selector </h2>
+    <h2>:: After Selector</h2>
+    <h2>:: Between Selector</h2>
+</body>
+</html>
